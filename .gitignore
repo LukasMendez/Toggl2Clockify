@@ -1,0 +1,3 @@
+# Ignore local appSettings
+appsettings.json
+appsettings.Development.json
