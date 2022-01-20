@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toggl2ClockifyService", "Toggl2ClockifyService\Toggl2ClockifyService.csproj", "{42F3769A-2C0B-4E89-BD83-11F89B161CA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42F3769A-2C0B-4E89-BD83-11F89B161CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F3769A-2C0B-4E89-BD83-11F89B161CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F3769A-2C0B-4E89-BD83-11F89B161CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F3769A-2C0B-4E89-BD83-11F89B161CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04B552E6-796D-4A6A-AD9C-3BD588E1EFD6}
+	EndGlobalSection
+EndGlobal
