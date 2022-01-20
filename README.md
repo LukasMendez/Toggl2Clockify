@@ -96,3 +96,6 @@ To avoid funny and too precise numbers (not every project leader wants that) you
 
 To specify how often you want the service should run you can set the amount of hours, that the service should wait before executing again. The number you provide must be the amount of hours. 
 
+## Publish
+
+To publish the code and start using it, you can follow this guide: https://docs.microsoft.com/en-us/dotnet/core/extensions/windows-service
