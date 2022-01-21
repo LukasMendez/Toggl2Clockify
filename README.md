@@ -6,7 +6,7 @@ Toggl2Clockify is a worker service that can import time reports from Toggl and e
 
 The service is supposed to run in the background and execute automatically in a specified time interval defined by the user. The purpose of the service is to make it easier for developers or other users that need to track their time spent on tasks, and who prefer using Toggl Track but work for a company that requires time registration to be done in Clockify. 
 
-Using this tool you will be able to use Toogl Track normally and not have to worry about the hours not being added to Clockify. 
+Using this tool you will be able to use Toggl Track normally and not have to worry about the hours not being added to Clockify. 
 
 ## Get started
 
