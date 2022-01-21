@@ -3,6 +3,7 @@ using Toggl2ClockifyServiceTransferingService;
 using Toggl2ClockifyServiceTransferingService.Services;
 
 IHost host = Host.CreateDefaultBuilder(args)
+    .UseWindowsService()
     .ConfigureServices((hostContext, services) =>
     {
         IConfiguration config = hostContext.Configuration;

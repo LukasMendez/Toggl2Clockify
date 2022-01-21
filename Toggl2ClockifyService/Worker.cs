@@ -21,8 +21,11 @@ public class Worker : BackgroundService
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
+        Directory.SetCurrentDirectory(AppDomain.CurrentDomain.BaseDirectory);
+
         while (!stoppingToken.IsCancellationRequested)
         {
+            this.logger.LogInformation("Executing scheduled Toggl2Clockify Service");
             await this.toggl2ClockifyTransferingService.TransferTimeReports();
             await Task.Delay(
                 TimeSpan.FromHours(this.generalConfigurationOptions.RunIntervalInHours),

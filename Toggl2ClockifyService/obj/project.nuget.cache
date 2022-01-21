@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jfCHUhjd5HpCxtE7/nBy30GtiG3uVRskUQHJAllqEQUb91cY/eY8rxmFoL8/sls8J6P0MUTr2q+zTbHKRryugg==",
+  "dgSpecHash": "3hc6UkhWzEP91kPRDKoHgT3BHar+T0Op1bFZN3Rud8D/XJvGVtLfGNCZqoKG+fw8il+qSpAs5GlG1AqRTrw92A==",
   "success": true,
   "projectFilePath": "C:\\Users\\lumd\\Documents\\Toggl2Clockify\\Toggl2ClockifyService\\Toggl2ClockifyService.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\lumd\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
     "C:\\Users\\lumd\\.nuget\\packages\\microsoft.extensions.hosting\\6.0.0\\microsoft.extensions.hosting.6.0.0.nupkg.sha512",
     "C:\\Users\\lumd\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\6.0.0\\microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\lumd\\.nuget\\packages\\microsoft.extensions.hosting.windowsservices\\6.0.0\\microsoft.extensions.hosting.windowsservices.6.0.0.nupkg.sha512",
     "C:\\Users\\lumd\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\lumd\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\lumd\\.nuget\\packages\\microsoft.extensions.logging.configuration\\6.0.0\\microsoft.extensions.logging.configuration.6.0.0.nupkg.sha512",
@@ -39,9 +40,13 @@
     "C:\\Users\\lumd\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\lumd\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\lumd\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
+    "C:\\Users\\lumd\\.nuget\\packages\\system.serviceprocess.servicecontroller\\6.0.0\\system.serviceprocess.servicecontroller.6.0.0.nupkg.sha512",
     "C:\\Users\\lumd\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\lumd\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\lumd\\.nuget\\packages\\togglapi.netstandard\\0.2.14\\togglapi.netstandard.0.2.14.nupkg.sha512"
+    "C:\\Users\\lumd\\.nuget\\packages\\togglapi.netstandard\\0.2.14\\togglapi.netstandard.0.2.14.nupkg.sha512",
+    "C:\\Users\\lumd\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.1\\microsoft.netcore.app.runtime.win-x64.6.0.1.nupkg.sha512",
+    "C:\\Users\\lumd\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.1\\microsoft.aspnetcore.app.runtime.win-x64.6.0.1.nupkg.sha512",
+    "C:\\Users\\lumd\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.1\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.1.nupkg.sha512"
   ],
   "logs": []
 }

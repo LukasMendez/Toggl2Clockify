@@ -3,6 +3,7 @@ using Clockify.Net.Models.TimeEntries;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using RestSharp;
+using System.Reflection;
 using Toggl.QueryObjects;
 using Toggl.Services;
 using Toggl2ClockifyService.Models;
@@ -99,7 +100,7 @@ public class Toggl2ClockifyTransferingService
     /// <returns></returns>
     private DateTime GetStartDate()
     {
-        string json = File.ReadAllText("history.json");
+        string json = File.ReadAllText(Path.Combine(Path.Combine(Assembly.GetExecutingAssembly().Location), "history.json"));
         var history = JsonConvert.DeserializeAnonymousType(json, new
         {
             LastExecution = default(DateTime?)
@@ -120,7 +121,9 @@ public class Toggl2ClockifyTransferingService
         {
             LastExecution = endDate
         };
-        File.WriteAllText("history.json", JsonConvert.SerializeObject(json));
+
+
+        File.WriteAllText(Path.Combine(Path.Combine(Assembly.GetExecutingAssembly().Location),"history.json"), JsonConvert.SerializeObject(json));
     }
 
     /// <summary>

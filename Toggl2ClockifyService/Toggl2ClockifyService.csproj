@@ -1,21 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-Toggl2ClockifyService-B9A3F795-DA7A-457F-9226-4648765FC4EA</UserSecretsId>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>dotnet-Toggl2ClockifyService-B9A3F795-DA7A-457F-9226-4648765FC4EA</UserSecretsId>
+		<OutputType>exe</OutputType>
+		<PublishSingleFile>true</PublishSingleFile>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<PlatformTarget>x64</PlatformTarget>
+	</PropertyGroup>
 
 	<ItemGroup>
 		<Content Include="..\Toggl2ClockifyService\history.json" Link="history.json" CopyToOutputDirectory="PreserveNewest" />
 	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Clockify.Net" Version="1.14.0" />
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
-    <PackageReference Include="RestSharp" Version="106.15.0" />
-    <PackageReference Include="TogglAPI.NetStandard" Version="0.2.14" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Clockify.Net" Version="1.14.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+		<PackageReference Include="RestSharp" Version="106.15.0" />
+		<PackageReference Include="TogglAPI.NetStandard" Version="0.2.14" />
+	</ItemGroup>
 </Project>
