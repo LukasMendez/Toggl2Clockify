@@ -86,7 +86,7 @@ The userId will be the value of the property: "id"
 
 1) DefaultDaysSinceNow
 
-Whenever the service runs, it retrieves a time entry history for a specific time period. The service will always start by looking in `history.json` and use the last execution date as start date. If nothing is defined, it will need to know how many days it should look back, and use that date as start date. This can be changed to any values desired by the user. 
+Whenever the service runs, it retrieves a time entry history for a specific time period. The service will always start by looking in `history.json` and use the last execution date as start date. If nothing is defined, it will need to know how many days it should look back, and use that date as start date. This can be changed to any value desired by the user. 
 
 2. ShouldRoundTime
 
