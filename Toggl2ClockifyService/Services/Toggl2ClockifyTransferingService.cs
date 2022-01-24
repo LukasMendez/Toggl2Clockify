@@ -106,7 +106,7 @@ public class Toggl2ClockifyTransferingService
             LastExecution = default(DateTime?)
         });
 
-        return history.LastExecution != null ? (DateTime)history.LastExecution : DateTime.Now.AddDays(-this.generalConfigurationOptions.DefaultDaysSinceNow);
+        return history.LastExecution != null ? ((DateTime)history.LastExecution).Date : DateTime.Now.AddDays(-this.generalConfigurationOptions.DefaultDaysSinceNow).Date;
     }
 
 
