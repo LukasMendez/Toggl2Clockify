@@ -143,7 +143,7 @@ public class Toggl2ClockifyTransferingService
         {
             StartDate = startDate.Date,
             EndDate = endDate.AddDays(1), // +1 day is needed to capture the end of the billing range day
-            ProjectId = projectId,
+            ProjectId = projectId 
         };
 
         // List to be returned 
@@ -156,7 +156,7 @@ public class Toggl2ClockifyTransferingService
         {
             // Group by date and add all durations together
             var hoursByDates = hours
-                .Where(hour => hour.Duration != null)
+                .Where(hour => hour.Duration != null && hour.Duration.Value > 0) // Filter out timers that are running right now (ongoing timers will have a negative duration) 
                 .GroupBy(hour => DateTime.ParseExact(hour.Start, "MM/dd/yyyy HH:mm:ss", null).Date)
                 .Select(group => new TimeReportEntry(group.Key, TimeSpan.FromSeconds(group.Sum(timeEntry => timeEntry.Duration ?? 0))))
                 .ToList();
